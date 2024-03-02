@@ -1,0 +1,163 @@
+:root {
+    --primary-color:#ff7700; /* Main accent color */
+    --seccondry-color:#3E3E3E; /* Secondary background color */
+    --seccondry-color-darker:#353535; /* Darker shade of secondary color */
+    --text-color: #fff; /* Text color */
+    --card-border-radious: 20px;  /* Border radius for cards */
+    --trasparent-background: rgba(30, 30, 30, 0.5);
+  }
+
+/* Smooth scrolling behavior for the entire HTML document */
+html {
+    scroll-behavior: smooth;
+  }
+
+body {
+    background-color: var(--seccondry-color);
+    color: var(--text-color);
+}
+
+span {
+    color: var(--primary-color);
+}
+
+
+/* Style for link elements */
+a {
+    text-decoration: none; /* Remove default underline */
+    color: var(--text-color); /* Use text color variable */
+    z-index: 10;
+    position: relative;
+    display: inline;
+    height: 100%;
+  
+  }
+  
+  /* Define font families for specific heading and paragraph elements */
+  h1, h2, h3, h4 {
+    font-family: 'Lilita One', sans-serif;
+  }
+  
+  p, label {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 25px;  /* Set a default font size for paragraphs and labels */
+  }
+  
+  h3 {
+    font-size: 30px;
+  }
+
+  .section-title {
+    border-right: var(--primary-color) solid 5px;
+  }
+
+
+  /* Bootstrap Overrides */
+
+  .btn-primary {
+    transition: transform 0.6s; /* Animation */
+    background-color: var(--primary-color) !important;
+  }
+
+  .btn-primary:hover{
+    box-shadow: 9px 7px 15px rgba(0, 0, 0, 1); 
+    transform: scale(1.1);
+  }
+  
+  .bg-dark {
+    background-color: var(--trasparent-background) !important;
+  }
+
+  .container {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+  }
+  
+  .jumbotron{
+      margin-top: 2vh;
+      background-color: var(--trasparent-background) !important;
+      padding: 30px 5% 30px 5%;
+  }
+  
+  .jumbotron img {
+      width: 70%;
+      max-width: 400px;
+  }
+  
+  .badge {
+    display:flex;
+    font-size: 100%;
+    font-weight: 480;
+  }
+  
+  .badge-primary {
+    background-color: var(--primary-color);
+  
+    transition: transform 0.6s; /* Animation */
+  }
+  
+  .badge-primary:hover {
+    box-shadow: 9px 7px 15px rgba(0, 0, 0, 1); 
+    transform: scale(1.1);
+  }
+
+
+
+/* Custom CSS until classes */
+
+.gap {
+    gap: 10px;
+    min-width: 85px;
+}
+
+.gap a {
+  max-height: 100px;
+}
+
+.rounded-img {
+    clip-path: circle();
+}
+
+.minWidth100 {
+  min-width: 100%;
+}
+
+.iconHover img {
+  transition: transform .4s; /* Animation */
+  transition: margin-inline .4s; /* Animation */
+}
+
+.iconHover img:hover {
+  transform: scale(1.2);
+  margin-inline: 10px;
+}
+
+/* footer css */
+
+.footer {
+  height:60px
+}
+
+.footer a {
+  display: flex;
+  text-decoration: none;
+}
+
+
+
+@media only screen and (max-width: 991px) { /* CSS overrides for section titles for medium view */
+    .section-title {
+        border-right: none;
+        border-bottom: var(--primary-color) solid 5px;
+        margin-bottom: 20px;
+        margin-inline: 20px;
+    }
+}
+
+@media only screen and (max-width: 658px) { /* CSS overrides for mobile view */
+
+      .footer {
+        height: 120px;
+      }
+}
