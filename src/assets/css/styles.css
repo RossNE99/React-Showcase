@@ -133,18 +133,6 @@ a {
   margin-inline: 10px;
 }
 
-/* footer css */
-
-.footer {
-  height:60px
-}
-
-.footer a {
-  display: flex;
-  text-decoration: none;
-}
-
-
 
 @media only screen and (max-width: 991px) { /* CSS overrides for section titles for medium view */
     .section-title {
@@ -153,11 +141,4 @@ a {
         margin-bottom: 20px;
         margin-inline: 20px;
     }
-}
-
-@media only screen and (max-width: 658px) { /* CSS overrides for mobile view */
-
-      .footer {
-        height: 120px;
-      }
 }
