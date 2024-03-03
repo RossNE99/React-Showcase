@@ -5,6 +5,8 @@ import AboutMeIcon from "../assets/images/icons/about-me.png"
 import MyWorkIcon from "../assets/images/icons/my-work.png"
 import ContactMeIcon from "../assets/images/icons/contact-me.png"
 
+import "./NavBar.css"
+
 function NavBar(props) {
   return (
     <nav className="">

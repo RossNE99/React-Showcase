@@ -12,7 +12,7 @@ import JavaIcon from"../../assets/images/otherSkillsImgs/Java.jpg"
 import SpringIcon from"../../assets/images/otherSkillsImgs/spring.png"
 import ServerIcon from"../../assets/images/otherSkillsImgs/server.png"
 
-
+import "./About.css"
 
 
 function About() {

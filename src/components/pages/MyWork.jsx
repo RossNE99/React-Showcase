@@ -4,6 +4,8 @@ import HorinseonScreenshot from "../../assets/images/myWorkImgs/HorinseonScreens
 import PreworkStudyGuid from "../../assets/images/myWorkImgs/preworkStudyGuid.jpeg"
 import ReactProject from "../../assets/images/myWorkImgs/reactProject.jpeg"
 
+import "./MyWork.css"
+
 function MyWork() {
   return (
     <div id="my-work" className="container mt-4">
