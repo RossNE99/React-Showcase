@@ -1,0 +1,51 @@
+[
+    {
+        "id": 1,
+        "title":"Prework",
+        "subTitle" : "HTML/css/js",
+        "image" : "./myWorkImgs/preworkStudyGuid.jpeg",
+        "link" : "https://rossne99.github.io/prework-study-guide/"
+    },
+    {
+        "id": 2,
+        "title":"Coming Soon",
+        "subTitle" : "React/JS",
+        "image" : "./myWorkImgs/reactProject.jpeg",
+        "link" : "placehodler"
+    },
+    {
+        "id": 3,
+        "title":"Coming Soon",
+        "subTitle" : "React/JS",
+        "image" : "./myWorkImgs/reactProject.jpeg",
+        "link" : "placehodler"
+    },
+    {
+        "id": 4,
+        "title":"Coming Soon",
+        "subTitle" : "React/JS",
+        "image" : "./myWorkImgs/reactProject.jpeg",
+        "link" : "placehodler"
+    },
+    {
+        "id": 5,
+        "title":"Coming Soon",
+        "subTitle" : "React/JS",
+        "image" : "./myWorkImgs/reactProject.jpeg",
+        "link" : "placehodler"
+    },
+    {
+        "id": 6,
+        "title":"Coming Soon",
+        "subTitle" : "React/JS",
+        "image" : "./myWorkImgs/reactProject.jpeg",
+        "link" : "placehodler"
+    },
+    {
+        "id": 7,
+        "title":"Coming Soon",
+        "subTitle" : "React/JS",
+        "image" : "./myWorkImgs/reactProject.jpeg",
+        "link" : "placehodler"
+    }
+]

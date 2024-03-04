@@ -2,8 +2,9 @@ import React, { useState } from 'react';
 import NavBar from './NavBar';
 import Home from './pages/Home';
 import About from './pages/About';
-import MyWork from './pages/MyWork';
+import MyWork from './pages/MyWork/MyWork';
 import Contact from './pages/Contact';
+
 
 function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState('Home');
