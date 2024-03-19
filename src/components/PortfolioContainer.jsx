@@ -5,6 +5,7 @@ import About from './pages/About';
 import MyWork from './pages/MyWork/MyWork';
 import Contact from './pages/Contact';
 import { Route, Routes } from "react-router-dom"
+import PorjectPage from './pages/MyWork/PorjectPage';
 
 
 function PortfolioContainer() {
@@ -17,6 +18,7 @@ function PortfolioContainer() {
         <Route path="/About" element={<About />} />
         <Route path="/MyWork" element={<MyWork />} />
         <Route path="/Contact" element={<Contact />} />
+        <Route path="/MyWork/:title" element={<PorjectPage />} />
       </Routes>
     </div>
   );

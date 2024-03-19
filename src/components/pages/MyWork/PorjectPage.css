@@ -1,0 +1,26 @@
+.left-section{
+    background-color: var(--trasparent-background);
+    height: 100%;
+}
+
+.right-section{
+    background-color: var(--primary-color);
+    height: 100%;
+}
+
+.height100{
+    min-height: 100%;
+}
+
+.width100{
+    min-width: 100%;
+}
+
+p{
+    font-size: 19px !important;
+}
+
+.right-section ul li {
+    background:var(--seccondry-color);
+    list-style-type: none;
+}
