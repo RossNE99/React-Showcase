@@ -11,18 +11,23 @@
         "title":"Coming Soon",
         "subTitle" : "React/JS",
         "image" : "./myWorkImgs/reactProject.jpeg",
-        "link" : "placehodler"
+        "repoLink" : "placehodler",
+        "deployedLink": "",
+        "tags": ["JavaScript" , "Bootstrap", "HTML", "CSS", "Jquery", "DayJS", "Web API Edamam", "Chart.js", "Full Calendar"],
+        "features": ["Generate recipes based on inputted ingredient", "Plan your meals for the future", "Display and save your chosen meals in a calendar", "Compare chart nutritional info", "Add your meals to favourites"],
+        "credits": ["Ross GitHub: RossNE99", "Obaid GitHub: obaid333", "Leonie GitHub: LeonieWhitehead", "Mahamuda GitHub: m-maha21", "Ifeoma GitHub: ifeoma101"],
+        "description": "Delish Discoveries is an app designed for culinary enthusiasts and adventurous foodies. Whether you are a fan of spicy street food or elegant desserts, our app ensures every recommendation suits your taste. This recipe finder can provide you with a wide range of options especially when you are simply not sure what to make for a meal. Therefore, our objective is to inspire users and facilitate their exploration of novel culinary creations. It is very easy to use, users can search for recipes by simply inputting the ingredients they have on hand, reduce food waste, and plan out their meals for the week."
     },
     {
         "id": 3,
-        "title":"Coming Soon",
+        "title":"sdfsdf",
         "subTitle" : "React/JS",
         "image" : "./myWorkImgs/reactProject.jpeg",
         "link" : "placehodler"
     },
     {
         "id": 4,
-        "title":"Coming Soon",
+        "title":"xdgdsfg",
         "subTitle" : "React/JS",
         "image" : "./myWorkImgs/reactProject.jpeg",
         "link" : "placehodler"
