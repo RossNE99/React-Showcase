@@ -59,6 +59,11 @@ function About() {
               <img className="rounded-img" src={SpringIcon} alt="Spring"/>
               <img className="rounded-img" src={ServerIcon} alt="Server Infrastructure"/>
             </div>
+            {/* <!--CV--> */}
+            <h3 className='mt-4'>My Resume </h3>
+            <div className='d-flex justify-content-center'>
+            <a className="mb-3 btn btn-primary btn-lg" href="/RossCharltonCV.pdf" download="RossCharltonCV.pdf" role="button" style={{maxHeight:"3.4rem"}}>Download</a>
+            </div>
         </div>
     </div>
 </div>
