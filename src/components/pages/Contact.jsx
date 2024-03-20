@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 
 import GitHubIcon from "../../assets/images/ContactImages/GitHub.png"
-import InstergramIcon from "../../assets/images/ContactImages/Instergram.png"
+import LinkedInIcon from "../../assets/images/ContactImages/LinkedIn.png"
 import EmailIcon from "../../assets/images/ContactImages/Email.png"
 import PhoneIcon from '../../assets/images/ContactImages/Phone.png'
 import Toast from '../Toast';
@@ -29,7 +29,7 @@ function Contact() {
         </div>
         <div className="col gap iconHover d-flex justify-content-center flex-wrap p-1 mb-3">
                 <a href="https://github.com/RossNE99/"><img className="img-fluid rounded-img" width="95px" src={GitHubIcon} alt="Github"/></a>
-                <a href="https://instagram.com/a90_ross"><img className="img-fluid rounded-img" width="95px" src={InstergramIcon} alt="Instergram"/></a>
+                <a href="https://www.linkedin.com/in/ross-charlton-a72506114/"><img className="img-fluid rounded-img" width="95px" src={LinkedInIcon} alt="LinkedIn"/></a>
                 <a href="mailto:rossycharlton@googlemail.com"><img className="img-fluid rounded-img" width="95px" src={EmailIcon} alt="Email"/></a>
                 <a href="tel:+447951720914"><img className="img-fluid rounded-img" width="95px" src={PhoneIcon} alt="Call"/> </a>
         </div>
