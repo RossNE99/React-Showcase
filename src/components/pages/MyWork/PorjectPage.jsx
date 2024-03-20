@@ -15,13 +15,13 @@ function PorjectPage() {
     <div className="container">
       <div className="row width100">
         <div className="col-md-7 col-sm-12 height100">
-          <div className='left-section shadow-lg p-2 rounded-lg'>
+          <div className='left-section shadow-lg p-2 rounded-lg my-3'>
             <div className='mb-2'>
               <h1 className='m-2'>{project.title}</h1>
               <a href={project.repoLink} className='btn btn-primary m-2'>View Repo</a>
               {project.deployedLink && <a href={project.deployedLink} className='btn btn-primary m-2'>Visit Site</a>}
             </div>
-            <div className="p-3 rounded-lg mr-md-1 h-100">
+            <div className="p-3 rounded-lg h-100">
               <h2>Description</h2>
               <p>{project.description}</p>
               <h2>Credits</h2>
@@ -34,7 +34,7 @@ function PorjectPage() {
           </div>
         </div>
         <div className='col-md-5 col-sm-12 height100'>
-          <div className=" right-section shadow-lg rounded-lg p-2">
+          <div className=" right-section shadow-lg rounded-lg p-2 my-3">
               <h2 className='m-2'>Features</h2>
                 <ul className='pl-1'>
                   {project.features.map((feature, i) => (
