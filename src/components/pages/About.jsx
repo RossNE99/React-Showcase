@@ -17,7 +17,7 @@ import "./About.css"
 
 function About() {
   return (
-    <div id="about-me" className="container">
+    <div id="about-me" className="container pt-4">
     <div className="row">
         <div className="col-md-12 col-lg-2 section-title">
             <h2>About <span>Me</span></h2>

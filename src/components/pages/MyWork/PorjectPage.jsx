@@ -12,10 +12,10 @@ function PorjectPage() {
   const project = porjects.find((project) => project.title===title)
 
   return (
-    <div className="container">
+    <div className="container py-3">
       <div className="row width100">
         <div className="col-md-7 col-sm-12 height100">
-          <div className='left-section shadow-lg p-2 rounded-lg my-3'>
+          <div className='left-section shadow-lg p-2 rounded-lg'>
             <div className='mb-2'>
               <h1 className='m-2'>{project.title}</h1>
               <a href={project.repoLink} className='btn btn-primary m-2'>View Repo</a>
@@ -34,7 +34,7 @@ function PorjectPage() {
           </div>
         </div>
         <div className='col-md-5 col-sm-12 height100'>
-          <div className=" right-section shadow-lg rounded-lg p-2 my-3">
+          <div className=" right-section shadow-lg rounded-lg p-2">
               <h2 className='m-2'>Features</h2>
                 <ul className='pl-1'>
                   {project.features.map((feature, i) => (
