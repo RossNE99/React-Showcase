@@ -6,6 +6,7 @@ import MyWork from './pages/MyWork/MyWork';
 import Contact from './pages/Contact';
 import { Route, Routes } from "react-router-dom"
 import PorjectPage from './pages/MyWork/PorjectPage';
+import Background from './Background';
 
 
 function PortfolioContainer() {
@@ -20,6 +21,7 @@ function PortfolioContainer() {
         <Route path="/Contact" element={<Contact />} />
         <Route path="/MyWork/:title" element={<PorjectPage />} />
       </Routes>
+      <Background/>
     </div>
   );
 }
