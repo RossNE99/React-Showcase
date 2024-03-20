@@ -1,56 +1,86 @@
-[
-    {
+[    {
         "id": 1,
-        "title":"Prework",
-        "subTitle" : "HTML/css/js",
-        "image" : "./myWorkImgs/preworkStudyGuid.jpeg",
-        "link" : "https://rossne99.github.io/prework-study-guide/"
-    },
-    {
-        "id": 2,
-        "title":"Coming Soon",
-        "subTitle" : "React/JS",
-        "image" : "./myWorkImgs/reactProject.jpeg",
-        "repoLink" : "placehodler",
-        "deployedLink": "",
+        "title":"Delish Discoveries",
+        "subTitle" : "Jquery/Bootstrap",
+        "image" : "./myWorkImgs/Delish-Discoveries.png",
+        "repoLink" : "https://github.com/RossNE99/Delish-Discoveries",
+        "deployedLink": "https://rossne99.github.io/Delish-Discoveries/",
         "tags": ["JavaScript" , "Bootstrap", "HTML", "CSS", "Jquery", "DayJS", "Web API Edamam", "Chart.js", "Full Calendar"],
         "features": ["Generate recipes based on inputted ingredient", "Plan your meals for the future", "Display and save your chosen meals in a calendar", "Compare chart nutritional info", "Add your meals to favourites"],
         "credits": ["Ross GitHub: RossNE99", "Obaid GitHub: obaid333", "Leonie GitHub: LeonieWhitehead", "Mahamuda GitHub: m-maha21", "Ifeoma GitHub: ifeoma101"],
         "description": "Delish Discoveries is an app designed for culinary enthusiasts and adventurous foodies. Whether you are a fan of spicy street food or elegant desserts, our app ensures every recommendation suits your taste. This recipe finder can provide you with a wide range of options especially when you are simply not sure what to make for a meal. Therefore, our objective is to inspire users and facilitate their exploration of novel culinary creations. It is very easy to use, users can search for recipes by simply inputting the ingredients they have on hand, reduce food waste, and plan out their meals for the week."
     },
     {
+        "id": 2,
+        "title":"Hourly-JS",
+        "subTitle" : "Jquery/DayJS",
+        "image" : "./myWorkImgs/Hourly-JS.png",
+        "repoLink" : "https://github.com/RossNE99/Hourly-JS",
+        "deployedLink": "https://rossne99.github.io/Hourly-JS/",
+        "tags": ["JavaScript", "HTML", "CSS", "Jquery", "DayJS"],
+        "features": ["Allows you to plan tasks for today and in advance", "multi day, hour by hour planning", "Is color coded so you know if your looking at the past, present or future", "All data is stored on your local pc so it is sercure, private and persistent"],
+        "credits": ["Ross GitHub: RossNE99"],
+        "description": "This dynamic scheduler features multi day, hour by hour planning - allowing you to plan in advance and view previous days' tasks. Hourly-JS also allows you to view and add tasks using a custom date and time range. All your scheduled tasks are stored in local storage so it's persistent when you refresh the page and your schedule is private, only you can see it! 👀🔐. The motivation behind creating Hourly-JS was that it became difficult to plan my day efficiently and stick to the day-plan so, I created a solution. My solution was to develop a custom web app which would allow me to keep track of my tasks hour-by-hour, day-by-day... That's when Hourly-JS was born!"
+    },
+    {
         "id": 3,
-        "title":"sdfsdf",
-        "subTitle" : "React/JS",
-        "image" : "./myWorkImgs/reactProject.jpeg",
-        "link" : "placehodler"
+        "title":"DocuGen-JS",
+        "subTitle" : "NodeJS/Inquirer",
+        "image" : "./myWorkImgs/DocuGen-JS.png",
+        "repoLink" : "https://github.com/RossNE99/DocuGen-JS",
+        "deployedLink": null,
+        "tags": ["JavaScript", "NodeJS", "Inquirer"],
+        "features": ["Allows you to easily create readme files in a clean format", "Saves the readme file to you local file system"],
+        "credits": ["Ross GitHub: RossNE99"],
+        "description": "DocuGen-JS is a node js app that helps developers create README files for their projects. A README file is a document that provides essential information about a project, such as its name, description, installation, usage, license, and contributors. README Generator simplifies the process of creating a README file by asking the user to input the relevant details and then formatting them into a markdown file. The motivation behind creating DocuGen-JS was to streamline the often tedious process of crafting README files for software projects, github repos, etc. As a developer myself, I've experienced firsthand the hassle of repeatedly writing and formatting READMEs for various projects. With DocuGen-JS, my aim is to alleviate this burden by providing a simple and efficient tool that automates the generation of README files. By abstracting away the manual labor involved in creating these essential project documents, developers can focus more on coding and less on documentation, ultimately enhancing productivity and project clarity. To use DocuGen-JS, you need to have node js installed on your system. You can download node js from here. Once you have node js, you can clone this repository or download the zip file. Then, navigate to the folder where you have the app and run node index.js in your terminal. You will be prompted to answer some questions about your project, such as its name, description, installation, usage, license, and contributors. After you answer all the questions, a README.md file will be generated in the same folder. You can then edit, rename, or move the file as you wish."
     },
     {
         "id": 4,
-        "title":"xdgdsfg",
-        "subTitle" : "React/JS",
-        "image" : "./myWorkImgs/reactProject.jpeg",
-        "link" : "placehodler"
+        "title":"Teamify-JS",
+        "subTitle" : "NodeJS/Jest",
+        "image" : "./myWorkImgs/Teamify-JS.png",
+        "repoLink" : "https://github.com/RossNE99/Teamify-JS",
+        "deployedLink": null,
+        "tags": ["JavaScript", "NodeJS", "Inquirer", "Jest", "Bootstrap"],
+        "features": ["Allows you to easily create a webpage that displays all empolyees and their roles", "Allows you to have quick access to their emails and GitHub profiles"],
+        "credits": ["Ross GitHub: RossNE99"],
+        "description": "Teamify-JS is a Node.js command-line application designed to streamline the process of generating a webpage displaying essential information about a software engineering team 🚀. As a manager or user, you can quickly access your team members' basic details, including their emails and GitHub profiles, through an intuitive interface. This application simplifies team management by allowing users to input information about team members directly into the command-line interface. Upon submission, the program generates an HTML webpage containing concise summaries for each team member, making it easy to keep track of crucial details at a glance. With comprehensive tests provided, you can trust that every aspect of the code meets high standards of functionality and reliability, ensuring a seamless experience for both managers and team members alike 📊. Streamline your team management process today with Teamify-JS. Streamline your team management process today with Teamify-JS. 💼"
     },
     {
         "id": 5,
-        "title":"Coming Soon",
-        "subTitle" : "React/JS",
-        "image" : "./myWorkImgs/reactProject.jpeg",
-        "link" : "placehodler"
+        "title":"Quiz-JS",
+        "subTitle" : "JavaScript/HTML",
+        "image" : "./myWorkImgs/Quiz-JS.png",
+        "repoLink" : "https://github.com/RossNE99/Quiz-JS",
+        "deployedLink": "https://rossne99.github.io/Quiz-JS/",
+        "tags": ["JavaScript", "HTML", "CSS"],
+        "features": ["Contains of 50 unique questions", "Questions are always in a random order, no matter how meany times you play!", "Players can save there scores", "Race against the timer, when you get a question incorrect you will lose time", "Scores are saved so you can see how you are improving over time"],
+        "credits": ["Ross GitHub: RossNE99"],
+        "description": "Welcome to the JavaScript Fundamentals Challenge! This dynamic quiz features multiple-choice questions, injecting excitement as you race against the clock to accumulate correct answers. Exercise caution, as an incorrect response incurs a time penalty. The motivation behind creating this quiz is to enhance the enjoyment of learning and practicing JavaScript fundamentals. Notably, it stores your scores, allowing you to track your progress and witness your improvement over time. It serves as an ideal platform to hone your skills. Challenge your friends, compare high scores, and engage in friendly competition to determine who truly excels in their JS knowledge. Let the learning adventure begin!"
     },
     {
         "id": 6,
-        "title":"Coming Soon",
-        "subTitle" : "React/JS",
-        "image" : "./myWorkImgs/reactProject.jpeg",
-        "link" : "placehodler"
+        "title":"Password-Pal-JS",
+        "subTitle" : "JavaScript/HTML",
+        "image" : "./myWorkImgs/Password-Pal-JS.png",
+        "repoLink" : "https://github.com/RossNE99/Password-Pal-JS",
+        "deployedLink": "https://rossne99.github.io/Password-Pal-JS/",
+        "tags": ["JavaScript", "HTML", "CSS"],
+        "features": ["Passwords can include the following;", "Lower case Characters 🔡", "Upper case Characters 🔠", "Number's 🔢", "Special Characters 🔣", "Passwords are", "100% Random 👽", "Sercure 🔐", "Genarated on YOUR device, fully offline 🙅‍♂️"],
+        "credits": ["Ross GitHub: RossNE99"],
+        "description": "Welcome to Password-Pal-JS, your trusty sidekick in the realm of password security! This client-side password generator is designed to empower you with 100% random, ultra-secure passwords whilst also offering the flexibility to tailor them to your unique preferences. Dive into the incredible features that make Password-Pal-JS your go-to password companion! 💪. The driving force behind Password-Pal-JS stems from our commitment to revolutionising the way you approach password generation. In a world filled with digital challenges, we understand the importance of having a reliable ally by your side. Our goal is to rescue you and your team from the tedious task of password creation. By generating robust, secure passwords right on your device, Password-Pal-JS ensures that your sensitive information stays in your hands, eliminating worries about data being stored elsewhere on the internet🚀. This project takes a user-friendly approach by utilising prompts and confirms to seamlessly collect your requirements. Say goodbye to complex and time-consuming processes; Password-Pal-JS makes password generation a breeze."
     },
     {
         "id": 7,
-        "title":"Coming Soon",
-        "subTitle" : "React/JS",
-        "image" : "./myWorkImgs/reactProject.jpeg",
-        "link" : "placehodler"
+        "title":"Weathr-JS",
+        "subTitle" : "JavaScript/Web API",
+        "image" : "./myWorkImgs/Weathr-JS.png",
+        "repoLink" : "https://github.com/RossNE99/Weathr-JS",
+        "deployedLink": "https://rossne99.github.io/Weathr-JS/",
+        "tags": ["JavaScript", "HTML", "CSS", "Jquery", "DayJS", "OpenWeatherMap API"],
+        "features": ["Allows you see the weather for today And the next 5 days", "Stores your search history", "Is Fully mobile responsive", "has a clean design"],
+        "credits": ["Ross GitHub: RossNE99"],
+        "description": "Weathr-JS is a dynamic weather web app that provides up-to-date forecasts for the current day and the next 5 days. Its intuitive interface allows you to plan your schedule ensuring you stay prepared for changing weather conditions. Created to address the challenges of planning amidst unpredictable weather, Weathr-JS empowers users to seamlessly integrate weather forecasts into their daily schedules. The app ensures that your plans align with the atmospheric conditions, allowing for more informed and adaptable planning. Weathr-JS solves the problem of uncertainty in daily planning caused by unpredictable weather. It allows users to stay ahead of the forecast, providing hourly weather details to aid in decision-making. Weathr-JS ensures that your scheduling is not only efficient but also tailored to the ever-changing weather patterns. Experience the convenience of weather-informed planning with Weathr-JS – because when it comes to your schedule, the forecast matters! 🌦️📅"
     }
+    
 ]

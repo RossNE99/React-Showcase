@@ -1,11 +1,12 @@
 import React, { useState } from 'react';
 import PorjectModal from './PorjectPage';
+import { Link } from 'react-router-dom';
 
 function ShowcaseCard({showcaseProject}) {
   return (
     <>
       <div className="col-12 pb-md-3 pb-3">  
-      <a href={showcaseProject.link} className="card bg-dark text-white CardImgContainer ">
+      <Link to={showcaseProject.title} className="card bg-dark text-white CardImgContainer ">
           <img src={showcaseProject.image} className="card-img" alt={showcaseProject.title}/>
           <div className="card-img-overlay d-flex flex-wrap flex-column justify-content-end p-0">
               <div className="CardTextOverlay">
@@ -13,7 +14,7 @@ function ShowcaseCard({showcaseProject}) {
                   <p className="">{showcaseProject.subTitle}</p>
               </div>
           </div>
-      </a>
+      </Link>
   </div>
   </>
   )
