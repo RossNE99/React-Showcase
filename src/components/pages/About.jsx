@@ -23,10 +23,9 @@ function About() {
             <h2>About <span>Me</span></h2>
         </div>
         <div className="col mb-3">
-            {/* <!-- My background --> */}
-            <h3>My background</h3>
-            <p>
-              It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here,
+            {/* <!-- about --> */}
+            <p className='mt-2'>
+            As a full-stack developer, I’m passionate about solving complex problems and creating elegant solutions. My determination and independence drive me to craft code that bridges creativity and logic. Let’s build something remarkable together! 🚀
             </p>
             {/* <!-- My Skills --> */}
             <h3>My Skills</h3>
